@@ -1,3 +1,4 @@
+//Selecting the canvas element
 var canvas = document.getElementById("surface");
 var ctx = canvas.getContext("2d");
 
