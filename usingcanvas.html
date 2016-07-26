@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    </head>
-    <body>
-        <canvas id="surface" style="border: 1px black solid" height="600px" width="600px">
-        </canvas>
-    </body>
+
+<head> </head>
+
+<body>
+    <h1>BBQ-Crush | Score: <span id="score">0</span></h1>
     
+    <div style="position: relative; border: 1px black solid; height: 600px; width: 600px;">
+        <canvas id="background" width="600px" height="600px" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id="surface" width="600px" height="600px" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+    </div>
     
-    <script src="simpleFunctional.js"></script>
-    
-    <script src="render.js"></script>
-    <script src="graphics.js"></script>
-    <script src="food.js"></script>
-    
-    
-    <script src="game.js"></script>
+</body>
+<script src="simpleFunctional.js"></script>
+<script src="render.js"></script>
+<script src="graphics.js"></script>
+<script src="food.js"></script>
+<script src="game.js"></script>
 
 </html>

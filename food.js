@@ -13,6 +13,10 @@ function Food(img, x, y, w, h) {
     this.draw = function (context) {
         context.moveTo(0, 0);
         context.clearRect(this.x, this.y, this.w, this.h);
+        if (this.highlighted){
+            context.fillStyle = "yellow";
+            context.fillRect(this.x, this.y, this.w, this.h);
+        }
         context.drawImage(this.img, this.x, this.y, this.w, this.h);
         
     }

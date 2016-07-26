@@ -55,7 +55,7 @@ function AllDefered(arr, func){
         
         for (var i = 0; i < defereds.length ; i++){
             if (defereds[i].status != "resolved"){
-                break;
+                return;
             }
         }
         
