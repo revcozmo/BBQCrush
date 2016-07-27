@@ -5,7 +5,7 @@ Only Javascript and html5! No CSS, no external library, no cheat.
 
 Use it as your refference.
 
-## Intructions to play:
+## Instructions to play:
 
 Click on a food and drag (up, down, left or right) to switch two elements in order to form at least 3 sequential objects. Score until there is no possible move.
 
