@@ -12,3 +12,5 @@ Click on a food and drag (up, down, left or right) to switch two elements in ord
 It needs improvements on animation.
 
 If you want to contribute, please do not use external library.
+
+Limitation: **Only works on chrome** 
